@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercise Time, Study Time and Calories influence my Daily Feeling</title>
+    <script src="d3.min.js"></script>
+</head>
+
+<body>
+<h1>
+    <p>Exercise Time, Study Time and Calories influence my Daily Feeling</p>
+</h1>
+<div id="canvas"></div>
+<h2>
+    Intent
+</h2>
+<p>
+    This project is about the relationship between exercise time, study time and calories and my daily feeling. I want
+    to know if I have a good daily feeling, how much exercise time, study time and calories I need. I also want to know
+    if I have a bad daily feeling, how much exercise time, study time and calories I need.
+</p>
+<h2>
+    Assumptions
+</h2>
+
+<ul>
+    <li>
+        Moderate exercise time or calorie intake will make me feel good
+    </li>
+    <li>
+        Too little or too much exercise time or calorie intake will make me uncomfortable
+    </li>
+    <li>
+        Study time has little effect on feel
+    </li>
+    <li>
+        If the daily study and exercise time is too long for many consecutive days, it will have a long-term negative
+        impact on feel
+    </li>
+</ul>
+<h2>
+    Data example
+</h2>
+<p>
+    <code>
+        {
+        "date": "17/10/2022",
+        "exercise time": 100,
+        "learn time": 2,
+        "calories": 1157,
+        "feel": 2
+        }
+    </code>
+</p>
+<h2>
+    Inspiration
+</h2>
+<p>
+    I am a student and I have a lot of homework to do. I also want to have a good daily feeling. So I want to know how
+    much exercise time, study time and calories I need to have a good daily feeling.
+    This calendar chart is inspired by
+    the <a href="https://bl.ocks.org/mbostock/4063318">calendar chart</a> by Mike
+    Bostock. I think this calendar chart is very powerful, by adding different elements such as color, area and even
+    expression could present a very intuitive effect, and it can show the relationship between exercise time and study.
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>US Temperatures 2015</title>
+    <script src="d3.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <p>Select a month to compare temperatures:
+        <select id="month">
+            <option value="all" selected>All of 2015</option>
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            <option value="Sep">September</option>
+            <option value="Oct">October</option>
+            <option value="Nov">November</option>
+            <option value="Dec">December</option>
+        </select>
+    </p>
+    <div id="canvas" style="margin:auto; width: fit-content;"></div>
+    <div class="readableWidth">
+        <h1 style="text-align:center;">Temperatures of Major U.S. Cities in 2015</h1>
+        <h2>When compared across major U.S. cities, global warming's effect on high and low temperatures shows a consistent pattern.</h2>
+        <p>Explanatory and analytical text goes here...</p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

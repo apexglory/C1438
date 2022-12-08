@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Exercise Time, Study Time and Calories influence my Daily Feeling #Attempt 2</title>
+    <script src="d3.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<h1>Exercise Time, Study Time and Calories influence my Daily Feeling #Attempt 2
+</h1>
+<div id="canvas"></div>
+<h2>
+    Intent
+</h2>
+<p>
+    This project is about the relationship between exercise time, study time and calories and my daily feeling. I want
+    to know if I have a good daily feeling, how much exercise time, study time and calories I need. I also want to know
+    if I have a bad daily feeling, how much exercise time, study time and calories I need.
+</p>
+<h2>
+    Assumptions
+</h2>
+
+<ul>
+    <li>
+        Moderate exercise time or calorie intake will make me feel good
+    </li>
+    <li>
+        Too little or too much exercise time or calorie intake will make me uncomfortable
+    </li>
+    <li>
+        Study time has little effect on feel
+    </li>
+    <li>
+        If the daily study and exercise time is too long for many consecutive days, it will have a long-term negative
+        impact on feel
+    </li>
+</ul>
+<h2>
+    Data example
+</h2>
+<p>
+    <code>
+        {
+        "date": "17/10/2022",
+        "exercise time": 100,
+        "learn time": 2,
+        "calories": 1157,
+        "feel": 2
+        }
+    </code>
+</p>
+<h2>
+    Inspiration
+</h2>
+<p>
+    I am a student and I have a lot of homework to do. I also want to have a good daily feeling. So I want to know how
+    much exercise time, study time and calories I need to have a good daily feeling.
+    This calendar chart is inspired by
+    the <a href="https://bl.ocks.org/mbostock/4063318">calendar chart</a> by Mike
+    Bostock. I think this calendar chart is very powerful, by adding different elements such as color, area and even
+    expression could present a very intuitive effect, and it can show the relationship between exercise time and study.
+</p>
+<h1>
+    Attempt 2 changes
+</h1>
+<h2>
+    Screenshot of attempt 1
+</h2>
+<img src="./attempt1.png" alt="attempt1" width="995" height="823">
+<h2>
+    What differences between attempt 1 and attempt 2?
+</h2>
+<p>
+    I believe that the calendar chart can fully prove my hypothesis, but in a1, I only use the color and the circle area
+    to reflect the relationship between the two data. So in a2, I decided to continue to explore technology to better
+    show the connection between the four sets of data. The specific improvements are as follows:
+</p>
+    <ol>
+    <li>
+        Use the red line segment and the blue line to indicate the learning time and exercise time respectively, and
+        their units are the same.
+    </li>
+    <li>
+        Use the wave area chart to represent the calorie intake for the day
+    </li>
+    <li>
+        Use a cute expression in the upper left corner to express the mood of the day, and put the date text in the
+        upper right corner.
+    </li>
+</ol>
+
+
+<p>
+    I don't think I have achieved the best effect yet. So I will continue to improve it later.
+</p>
+
+<h2>
+    What & Why?
+</h2>
+<p>
+    The question I want to explore is the link between exercise time, study time, calorie intake and feelings of the day
+    over longer time scales.
+    Therefore, compared with scatter plots or other graphics, using a calendar chart can better reflect the trend of
+    multidimensional data on the linear x-axis
+</p>
+<h2>
+    <!--初步结论-->
+    Initial conclusion
+</h2>
+<p>
+    If I study or exercise for a long time for many consecutive days, I will not feel very good if I take a full rest in
+    time for the next few days.
+</p>
+</body>
+<script src="main.js"></script>
+</html>
